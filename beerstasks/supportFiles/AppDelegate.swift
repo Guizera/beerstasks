@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import SupportSDK
+import ZendeskCoreSDK
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,6 +17,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        Zendesk.initialize(appId: "ebb3070094ba6cfda0cb8bafb46ada1d630569c3cd752f18",
+            clientId: "mobile_sdk_client_cdc39173698c8bd21437",
+            zendeskUrl: "https://beers.zendesk.com")
+        Support.initialize(withZendesk: Zendesk.instance)
+        
+        let identity = Identity.createAnonymous()
+        Zendesk.instance?.setIdentity(identity)
+
+        Support.initialize(withZendesk: Zendesk.instance)
+
         return true
     }
 
