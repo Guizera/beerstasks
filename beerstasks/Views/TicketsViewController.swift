@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import Kingfisher
 
 class TicketsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
