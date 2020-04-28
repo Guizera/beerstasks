@@ -1,5 +1,4 @@
 PODS:
-  - Spring (1.0.6)
   - ZendeskCommonUISDK (4.3.1):
     - ZendeskSDKConfigurationsSDK (~> 1.1.2)
   - ZendeskCoreSDK (2.2.3)
@@ -16,7 +15,6 @@ PODS:
     - ZendeskSupportProvidersSDK (~> 5.0.0)
 
 DEPENDENCIES:
-  - Spring (from `https://github.com/MengTo/Spring.git`)
   - ZendeskSupportSDK
 
 SPEC REPOS:
@@ -29,17 +27,7 @@ SPEC REPOS:
     - ZendeskSupportProvidersSDK
     - ZendeskSupportSDK
 
-EXTERNAL SOURCES:
-  Spring:
-    :git: https://github.com/MengTo/Spring.git
-
-CHECKOUT OPTIONS:
-  Spring:
-    :commit: 50d92a5b9e08848387ae95bf44c6ad20834f7083
-    :git: https://github.com/MengTo/Spring.git
-
 SPEC CHECKSUMS:
-  Spring: 3d113f14575ef79aec9c5f906dfa4f5001c03254
   ZendeskCommonUISDK: 65ae2c50925dee44c09f9678b385837e36316c25
   ZendeskCoreSDK: 5fa27aeb70392e8770e17c26bfe6c4c78b21975a
   ZendeskMessagingAPISDK: 6b351a74e941ec3ec9bfc25265d2009d490c8ec7
@@ -48,6 +36,6 @@ SPEC CHECKSUMS:
   ZendeskSupportProvidersSDK: 98bf9f86dade3c544d0ceb619e3869a2c4cf6276
   ZendeskSupportSDK: 16a0ea252d6bc8390d17a72385a4e2b42648bb67
 
-PODFILE CHECKSUM: 68da610364a98294d701fd126aa933301621b21d
+PODFILE CHECKSUM: cd5a63106b429abe68ddc78429cc873a269e4b71
 
 COCOAPODS: 1.9.1

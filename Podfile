@@ -6,7 +6,6 @@ target 'beerstasks' do
   use_frameworks!
 
   # Pods for beerstasks
-  pod 'Spring', :git => 'https://github.com/MengTo/Spring.git'
   pod 'ZendeskSupportSDK'
 
 end
