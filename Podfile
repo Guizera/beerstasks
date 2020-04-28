@@ -6,9 +6,7 @@ target 'beerstasks' do
   use_frameworks!
 
   # Pods for beerstasks
-  pod 'Kingfisher', '~> 5.13'
   pod 'Spring', :git => 'https://github.com/MengTo/Spring.git'
   pod 'ZendeskSupportSDK'
-  pod "EasyPeasy"
 
 end

@@ -1,8 +1,4 @@
 PODS:
-  - EasyPeasy (1.9.0)
-  - Kingfisher (5.13.4):
-    - Kingfisher/Core (= 5.13.4)
-  - Kingfisher/Core (5.13.4)
   - Spring (1.0.6)
   - ZendeskCommonUISDK (4.3.1):
     - ZendeskSDKConfigurationsSDK (~> 1.1.2)
@@ -20,15 +16,11 @@ PODS:
     - ZendeskSupportProvidersSDK (~> 5.0.0)
 
 DEPENDENCIES:
-  - EasyPeasy
-  - Kingfisher (~> 5.13)
   - Spring (from `https://github.com/MengTo/Spring.git`)
   - ZendeskSupportSDK
 
 SPEC REPOS:
   trunk:
-    - EasyPeasy
-    - Kingfisher
     - ZendeskCommonUISDK
     - ZendeskCoreSDK
     - ZendeskMessagingAPISDK
@@ -47,8 +39,6 @@ CHECKOUT OPTIONS:
     :git: https://github.com/MengTo/Spring.git
 
 SPEC CHECKSUMS:
-  EasyPeasy: 19a84ef8f8bbcf925b9fecc29d1d78b7dab96718
-  Kingfisher: d2279a7abece3c7f25a80cd2b7f363ca5cf3f44c
   Spring: 3d113f14575ef79aec9c5f906dfa4f5001c03254
   ZendeskCommonUISDK: 65ae2c50925dee44c09f9678b385837e36316c25
   ZendeskCoreSDK: 5fa27aeb70392e8770e17c26bfe6c4c78b21975a
@@ -58,6 +48,6 @@ SPEC CHECKSUMS:
   ZendeskSupportProvidersSDK: 98bf9f86dade3c544d0ceb619e3869a2c4cf6276
   ZendeskSupportSDK: 16a0ea252d6bc8390d17a72385a4e2b42648bb67
 
-PODFILE CHECKSUM: d864e656c67d809b15b9e3d5dc6fc8d22deacbfb
+PODFILE CHECKSUM: 68da610364a98294d701fd126aa933301621b21d
 
 COCOAPODS: 1.9.1

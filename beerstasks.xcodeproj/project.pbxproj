@@ -18,7 +18,6 @@
 		187F47F4245644160066BEEC /* TicketsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187F47F3245644160066BEEC /* TicketsViewController.swift */; };
 		187F47F62456478C0066BEEC /* TicketsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187F47F52456478C0066BEEC /* TicketsTableViewCell.swift */; };
 		187F47F82456847E0066BEEC /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187F47F72456847E0066BEEC /* AddViewController.swift */; };
-		187F47FB24570C270066BEEC /* beerTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187F47FA24570C270066BEEC /* beerTextField.swift */; };
 		82922E1869DEEAC0685440D8 /* Pods_beerstasks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AE8AEB275DE51844EA7CF4E /* Pods_beerstasks.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,7 +36,6 @@
 		187F47F3245644160066BEEC /* TicketsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsViewController.swift; sourceTree = "<group>"; };
 		187F47F52456478C0066BEEC /* TicketsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsTableViewCell.swift; sourceTree = "<group>"; };
 		187F47F72456847E0066BEEC /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
-		187F47FA24570C270066BEEC /* beerTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = beerTextField.swift; sourceTree = "<group>"; };
 		2AE8AEB275DE51844EA7CF4E /* Pods_beerstasks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_beerstasks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		742120925ED5E6F06D55A932 /* Pods-beerstasks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-beerstasks.debug.xcconfig"; path = "Target Support Files/Pods-beerstasks/Pods-beerstasks.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -104,7 +102,6 @@
 		185935132453892500F013D5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				187F47F924570C070066BEEC /* Ui */,
 				18593503245386B000F013D5 /* Main.storyboard */,
 				18593508245386B600F013D5 /* LaunchScreen.storyboard */,
 				18593501245386B000F013D5 /* ViewController.swift */,
@@ -122,14 +119,6 @@
 				185934FF245386B000F013D5 /* SceneDelegate.swift */,
 			);
 			path = supportFiles;
-			sourceTree = "<group>";
-		};
-		187F47F924570C070066BEEC /* Ui */ = {
-			isa = PBXGroup;
-			children = (
-				187F47FA24570C270066BEEC /* beerTextField.swift */,
-			);
-			path = Ui;
 			sourceTree = "<group>";
 		};
 		A05DCD42C9DF363A18A1F2BC /* Pods */ = {
@@ -267,7 +256,6 @@
 				18593502245386B000F013D5 /* ViewController.swift in Sources */,
 				185934FE245386B000F013D5 /* AppDelegate.swift in Sources */,
 				187F47F82456847E0066BEEC /* AddViewController.swift in Sources */,
-				187F47FB24570C270066BEEC /* beerTextField.swift in Sources */,
 				1859351524538AD800F013D5 /* TicketsModel.swift in Sources */,
 				18593500245386B000F013D5 /* SceneDelegate.swift in Sources */,
 				187F47F62456478C0066BEEC /* TicketsTableViewCell.swift in Sources */,
