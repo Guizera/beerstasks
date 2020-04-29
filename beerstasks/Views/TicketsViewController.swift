@@ -12,7 +12,7 @@ class TicketsViewController: UIViewController, UITableViewDelegate, UITableViewD
     
     @IBOutlet weak var ticketsTableView: UITableView!
     
-    let client = TicketsRequests(apiName: "guizera7@gmail.com", apiKey: "kuHFCPavXTQKMdDHsZQ4w0vscmPxrTyv2wSXKmrZ", host: "beers.zendesk.com", perPage: 25)
+    let client = TicketsRequests(apiName: "michellhornung@gmail.com", apiKey: "kBBDrdGBWaMwhTQti05UoEf5B11uYAy918fWdkIV", host: "hornung.zendesk.com", perPage: 25)
     
      var ticketsList: [Ticket] = []
     

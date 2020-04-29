@@ -14,7 +14,7 @@ class AddViewController: UIViewController {
     
     @IBOutlet weak var descriptionTextField: UITextField!
     
-    let client = TicketsRequests(apiName: "guizera7@gmail.com", apiKey: "kuHFCPavXTQKMdDHsZQ4w0vscmPxrTyv2wSXKmrZ", host: "beers.zendesk.com", perPage: 25)
+    let client = TicketsRequests(apiName: "michellhornung@gmail.com", apiKey: "kBBDrdGBWaMwhTQti05UoEf5B11uYAy918fWdkIV", host: "hornung.zendesk.com", perPage: 25)
     
     override func viewDidLoad() {
         super.viewDidLoad()
